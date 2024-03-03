@@ -47,7 +47,7 @@ const Navbar = () => {
                 key={social.name}
                 width={24}
                 height={24}
-                style={{backgroundColor: social.color ? social.color : ''}}
+                // style={{backgroundColor: social.color ? social.color : ''}}
               />
             </Link>
           ))}

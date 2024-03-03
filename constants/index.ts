@@ -1,5 +1,25 @@
 // import { FaLinkedin } from "react-icons/fa6";
 
+export const ProjectsInfo = [
+  {
+    image: "/projects/threads-preview-image.png",
+    title: "Threads App",
+    description: "In this project, users can create threads (tweets), respond to other threads, and establish communities. The flexibility of the website is noteworthy, as it is designed to be seamlessly accessible on various screen resolutions. Furthermore, users can leverage the Clerk feature to send invitations to others via email, facilitating the process of inviting individuals to join the platform.",
+    link: "https://threads-app-mu-fawn.vercel.app/"
+  },
+  {
+    image: "/projects/tree_visualizer_image.png",
+    title: "DSA Binary tree visualizer",
+    description: "This project provides a JavaScript-based tree data structure visualization tool for studying and understanding various tree-related algorithms and data structures.",
+    link: "https://threads-app-mu-fawn.vercel.app/"
+  },
+  {
+    image: "/SpaceWebsite.png",
+    title: "Space Themed Website",
+    description: "Explore a space-themed portfolio website showcasing the developer's skills and projects. Using canvas and framer motion, the site offers an immersive journey through Introduction, Skills, and Projects sections. Engage with captivating animations, navigate diverse skills, and explore projects uniquely presented for a memorable experience.",
+    link: "https://threads-app-mu-fawn.vercel.app/"
+  }
+]
 export const Skill_data = [
   {
     skill_name: "Html 5",
@@ -84,25 +104,33 @@ export const Skill_data = [
 
 export const Socials = [
   {
+    name: "GitHub",
+    src: "/github.png",
+    link: 'https://github.com/Chaitanya1672',
+    color: 'white',
+  },
+  {
     name: "LinkerdIn",
-    src: '/icons8-linkedin.svg',
+    src: '/linkedin.png',
     color: 'white',
     link: 'https://www.linkedin.com/in/chaitanya-narhare'
   },
   {
-    name: "Discord",
-    src: "/discord.svg",
-    link: 'https://discord.com/channels/@me'
-  },
-  {
-    name: "GitHub",
-    src: "/icons8-github-96.png",
-    link: 'https://github.com/Chaitanya1672',
+    name: "Twitter",
+    src: "/twitter.png",
+    link: 'https://twitter.com/Chaitanya_NN',
     color: 'white',
   },
   // {
+  //   name: "Discord",
+  //   src: "/discord.svg",
+  //   link: 'https://discord.com/channels/@me'
+  // },
+  // {
   //   name: "Instagram",
   //   src: "/instagram.svg",
+  //   link: 'https://github.com/Chaitanya1672',
+  //   color: 'white',
   // },
 ];
 

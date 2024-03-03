@@ -30,7 +30,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-4 mt-4 text-4xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -44,14 +44,15 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-3 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a Experienced Full Stack Software Engineer specializing in Website and Software development. Explore my projects and skills below.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href={'https://flowcv.com/resume/dknft98k3a'}
+          target="_blank"
         >
           Learn More!
         </motion.a>
