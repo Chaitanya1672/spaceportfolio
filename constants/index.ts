@@ -2,7 +2,7 @@
 
 export const ProjectsInfo = [
   {
-    image: "/projects/threads-preview-image.png",
+    image: "/projects/threads-preview-image.PNG",
     title: "Threads App",
     description: "In this project, users can create threads (tweets), respond to other threads, and establish communities. The flexibility of the website is noteworthy, as it is designed to be seamlessly accessible on various screen resolutions. Furthermore, users can leverage the Clerk feature to send invitations to others via email, facilitating the process of inviting individuals to join the platform.",
     link: "https://threads-app-mu-fawn.vercel.app/"
